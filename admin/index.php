@@ -13,7 +13,7 @@
 			"class_num" => 2
 		]
 	];
-	$xoopsTpl->assign('all_data', $all_data);
+	//$xoopsTpl->assign('all_data', $all_data);
 	
 	include 'footer.php';
 ?>
