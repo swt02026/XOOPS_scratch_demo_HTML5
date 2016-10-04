@@ -1,6 +1,6 @@
 <?php
 	include 'header.php';
-	$xoopsOption['template_main']="scratch_demo_index.html"
+	//$xoopsOption['template_main']="scratch_demo_index.html"
 	//include_once XOOPS_ROOT_PATH.'/header.php';
 	// global $xoospTpl;
 	// $all_data = [
