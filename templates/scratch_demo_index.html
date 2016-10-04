@@ -1,0 +1,21 @@
+<{$bootstrap}>
+<{$jquery}>
+<{$toolbar}>
+
+
+<h1 style="text-align:center;">Scratch 展示</h1>
+<hr>
+<table class="table">
+	<thead>
+		<tr>
+			<th>檔案連結</th>
+			<th>班級座號</th>
+		</tr>
+	</thead>
+	<tbody>
+		<{foreach from=$all_data item=news}>
+			<td><{$news.link}></td>
+			<td><{$news.class_num}></td>
+		<{/foreach}>
+	</tbody>
+</table>
