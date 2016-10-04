@@ -4,7 +4,7 @@ $modversion = array();
 //---模組基本資訊---//
 $modversion['name'] = "Scratch成品展示";
 $modversion['version'] = 1.00;
-$modversion['description'] = "Scratch sb2 檔案展示";
+$modversion['description'] = "Scratch檔案展示";
 $modversion['author'] = "swt02026";
 $modversion['credits'] = "";
 $modversion['help'] = 'page=help';
@@ -29,8 +29,8 @@ $modversion['system_menu'] = 1;
 
 
 //---模組資料表架構---//
-$modversion['sqlfile']['mysql'] = 'sql/scratch_demo.sql';
-$modversion['tables'][0] = 'scratch_demo';
+//$modversion['sqlfile']['mysql'] = 'sql/scratch_demo.sql';
+//$modversion['tables'][0] = 'scratch_demo';
 
 
 //---後台管理介面設定---//
