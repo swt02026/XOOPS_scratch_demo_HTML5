@@ -15,4 +15,5 @@
 	];
 	$xoopsTpl->assign("all_data", $all_data);
 	echo "aaa";
+	include 'footer.php';
 ?>
