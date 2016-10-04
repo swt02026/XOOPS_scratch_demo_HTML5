@@ -14,5 +14,5 @@
 		]
 	];
 	$xoopsTpl->assign("all_data", $all_data);
-
+	echo "aaa";
 ?>
