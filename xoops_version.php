@@ -2,10 +2,10 @@
 $modversion = array();
 
 //---模組基本資訊---//
-$modversion['name'] = "校園佈告欄";
+$modversion['name'] = "Scratch成品展示";
 $modversion['version'] = 1.00;
-$modversion['description'] = "校園佈告欄";
-$modversion['author'] = "tad";
+$modversion['description'] = "Scratch sb2 檔案展示";
+$modversion['author'] = "swt02026";
 $modversion['credits'] = "";
 $modversion['help'] = 'page=help';
 $modversion['license'] = 'GNU GPL 2.0';
@@ -13,22 +13,15 @@ $modversion['license_url'] = 'www.gnu.org/licenses/gpl-2.0.html/';
 $modversion['image'] = "images/logo.png";
 $modversion['dirname'] = basename(dirname(__FILE__));
 
-//---模組狀態資訊---//
-$modversion['release_date'] = '2015/07/14';
-$modversion['module_website_url'] = 'http://www.yces.chc.edu.tw';
-$modversion['module_website_name'] = '永靖國小';
-$modversion['module_status'] = 'release';
-$modversion['author_website_url'] = '';
-$modversion['author_website_name'] = '';
-$modversion['min_php']=5.2;
-$modversion['min_xoops']='2.5';
-
-//---paypal資訊---//
-$modversion ['paypal'] = array();
-$modversion ['paypal']['business'] = 'hsienhsi@yces.chc.edu.tw';
-$modversion ['paypal']['item_name'] = 'Donation :永靖國小';
-$modversion ['paypal']['amount'] = 1;
-$modversion ['paypal']['currency_code'] = 'USD';
+// //---模組狀態資訊---//
+// $modversion['release_date'] = '';
+// $modversion['module_website_url'] = '';
+// $modversion['module_website_name'] = '國小';
+// $modversion['module_status'] = 'release';
+// $modversion['author_website_url'] = '';
+// $modversion['author_website_name'] = '';
+// $modversion['min_php']=5.2;
+// $modversion['min_xoops']='2.5';
 
 
 //---後台使用系統選單---//
@@ -36,8 +29,8 @@ $modversion['system_menu'] = 1;
 
 
 //---模組資料表架構---//
-$modversion['sqlfile']['mysql'] = 'sql/mysql.sql';
-$modversion['tables'][0] = 'school_news';
+$modversion['sqlfile']['mysql'] = 'sql/scratch_demo.sql';
+$modversion['tables'][0] = 'scratch_demo';
 
 
 //---後台管理介面設定---//
@@ -61,12 +54,12 @@ $modversion['hasMain'] = 1;
 //---樣板設定---//
 $modversion['templates'] = array();
 $i=0;
-$modversion['templates'][$i]['file'] = 'school_news_adm_main.html';
+$modversion['templates'][$i]['file'] = 'scratch_demo_adm_main.html';
 $modversion['templates'][$i]['description'] = 'school_news_adm_main.html';
 
 $i++;
-$modversion['templates'][$i]['file'] = 'school_news_index.html';
-$modversion['templates'][$i]['description'] = 'school_news_index.html';
+$modversion['templates'][$i]['file'] = 'scratch_demo_index.html';
+$modversion['templates'][$i]['description'] = 'scratch_demo_index.html';
 
 
 //---搜尋---//
