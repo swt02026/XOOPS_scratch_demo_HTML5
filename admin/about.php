@@ -3,6 +3,6 @@
 	include '../../../include/cp_header.php';
 	xoops_cp_header();
 	$xoopsTpl->assign('data', "hello");
-	$xoopsTpl->display($xoopsTpl->template_dir."scratch_demo_about.html");
+	$xoopsTpl->display("/templates/scratch_demo_about.html");
 	xoops_cp_footer();
 ?>
