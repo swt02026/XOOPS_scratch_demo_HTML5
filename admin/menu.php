@@ -8,14 +8,6 @@ $adminmenu[$i]['link'] = 'admin/index.php' ;
 $adminmenu[$i]['desc'] = "";
 $adminmenu[$i]['icon'] = 'images/admin/home.png' ;
 
-
-$i++;
-$adminmenu[$i]['title'] = 'scratch demo';
-$adminmenu[$i]['link'] = "admin/main.php";
-$adminmenu[$i]['desc'] = 'scratch demo 介面' ;
-$adminmenu[$i]['icon'] = "images/admin/home.png";
-
-
 $i++;
 $adminmenu[$i]['title'] = "about";
 $adminmenu[$i]['link'] = 'admin/about.php';
