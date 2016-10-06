@@ -6,6 +6,7 @@
 	//print_r($xoopsTpl);
 
 	$xoopsTpl->assign('data',"dddd");
-	$o=$xoopsTpl->fetch('scratch_demo_about.html');
+	$o=$xoopsTpl->fetch('../templates/scratch_demo_about.html');
+	echo $o;
 	xoops_cp_footer();
 ?>
