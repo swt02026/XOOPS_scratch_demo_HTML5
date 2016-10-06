@@ -4,9 +4,6 @@
 	xoops_cp_header();
 
 	//print_r($xoopsTpl);
-
-	$xoopsTpl->assign('data',"dddd");
-	$o=$xoopsTpl->fetch('../templates/scratch_demo_about.html');
-	echo $o;
+	echo $xoopsTpl->template_dir;
 	xoops_cp_footer();
 ?>
