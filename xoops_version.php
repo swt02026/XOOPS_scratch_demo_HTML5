@@ -2,7 +2,7 @@
 $modversion = array();
 
 //---模組基本資訊---//
-$modversion['name'] = "Scratch成品展示";
+$modversion['name'] = "Scratch成品展示2";
 $modversion['version'] = 1.00;
 $modversion['description'] = "Scratch檔案展示";
 $modversion['author'] = "swt02026";
