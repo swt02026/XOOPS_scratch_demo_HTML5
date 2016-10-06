@@ -55,13 +55,14 @@ $modversion['hasMain'] = 1;
 
 $modversion['templates'][] = [
 	[
-		'file'=> 'scratch_demo_index.html',
-		'description'=>'scratch_demo_index.html'
-	],
-	[
 		'file'=> 'scratch_demo_about.html',
 		'description'=>'scratch_demo_about.html'
+	],
+	[
+		'file'=> 'scratch_demo_index.html',
+		'description'=>'scratch_demo_index.html'
 	]
+
 ];
 
 //---搜尋---//
