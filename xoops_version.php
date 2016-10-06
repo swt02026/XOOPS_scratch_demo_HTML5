@@ -61,10 +61,10 @@ $i++;
 $modversion['templates'][$i]['file'] = 'scratch_demo_index.html';
 $modversion['templates'][$i]['description'] = 'scratch_demo_index.html';
 
-array_push($modversion['templates'][], [
-	'file': 'scratch_demo_about.html',
-	'description':'scratch_demo_about.html'
-]);
+$modversion['templates'][] = [
+	'file'=> 'scratch_demo_about.html',
+	'description'=>'scratch_demo_about.html'
+];
 
 //---搜尋---//
 //$modversion['hasSearch'] = 1;
