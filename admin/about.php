@@ -8,4 +8,3 @@
 	echo $o;
 	xoops_cp_footer();
 ?>
-:q:
