@@ -3,7 +3,8 @@
 	include '../../../include/cp_header.php';
 	xoops_cp_header();
 
-	//print_r($xoopsTpl);
-	echo $xoopsTpl->template_dir;
+	$xoopsTpl->assign('data',"ddddd");
+	$xoopsTpl->display('../templates/scratch_demo_about.html');
+	
 	xoops_cp_footer();
 ?>
