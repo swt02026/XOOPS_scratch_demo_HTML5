@@ -52,15 +52,16 @@ $modversion['hasMain'] = 1;
 
 
 //---樣板設定---//
-$modversion['templates'] = array();
-$i=0;
-$modversion['templates'][$i]['file'] = 'scratch_demo_adm_main.html';
-$modversion['templates'][$i]['description'] = 'school_news_adm_main.html';
-
-$i++;
-$modversion['templates'][$i]['file'] = 'scratch_demo_index.html';
-$modversion['templates'][$i]['description'] = 'scratch_demo_index.html';
-
+$modversion['templates'] = [
+	[
+		'file' => 'scratch_demo_about.html',
+		'description' => 'scratch_demo_about.html'
+	],
+	[
+		'file' => 'scratch_demo_index.html',
+		'description' => 'scratch_demo_index.html'
+	]	
+];
 
 //---搜尋---//
 //$modversion['hasSearch'] = 1;
