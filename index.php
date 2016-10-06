@@ -12,7 +12,7 @@
 			"class_num" => 2
 		]
 	];
-	$xoopsTpl->assign('data', "aaa");
+	//$xoopsTpl->assign('data', "aaa");
 	//$xoopsTpl->assign('all_data', $all_data);
 	
 	include_once XOOPS_ROOT_PATH.'/footer.php';
