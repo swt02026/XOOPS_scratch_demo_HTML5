@@ -2,7 +2,7 @@
 $modversion = array();
 
 //---模組基本資訊---//
-$modversion['name'] = "Scratch成品展示2";
+$modversion['name'] = "Scratch成品展示";
 $modversion['version'] = 1.00;
 $modversion['description'] = "Scratch檔案展示";
 $modversion['author'] = "swt02026";
@@ -52,16 +52,18 @@ $modversion['hasMain'] = 1;
 
 
 //---樣板設定---//
-
 $modversion['templates'] = array();
 $i=0;
-$modversion['templates'][$i]['file'] = ' scratch_demo_about.html';
-$modversion['templates'][$i]['description'] = ' scratch_demo_about.html';
+$modversion['templates'][$i]['file'] = 'scratch_demo_adm_main.html';
+$modversion['templates'][$i]['description'] = 'school_news_adm_main.html';
 
 $i++;
-$modversion['templates'][$i]['file'] = 'scratch_demo_index.html ';
-$modversion['templates'][$i]['description'] = 'scratch_demo_index.html ';
+$modversion['templates'][$i]['file'] = 'scratch_demo_index.html';
+$modversion['templates'][$i]['description'] = 'scratch_demo_index.html';
 
+$i++;
+$modversion['templates'][$i]['file'] = 'scratch_demo_about.html';
+$modversion['templates'][$i]['description'] = 'scratch_demo_about.html';
 //---搜尋---//
 //$modversion['hasSearch'] = 1;
 //$modversion['search']['file'] = "include/search.php";
