@@ -4,7 +4,8 @@
 	xoops_cp_header();
 	echo "HELOO";
 	$xoopsTpl->assign('data',"dddd");
-	$xoopsTpl->display('../templates/scratch_demo_about.html');
+	$o=$xoopsTpl->fetch('../templates/scratch_demo_about.html');
+	echo $o;
 	xoops_cp_footer();
 ?>
 :q:
