@@ -1,7 +1,7 @@
 <?php 
 	if (isset($_GET['filename']) 
 		&& $str = addslashes(htmlspecialchars($_GET['filename'])))  {
-		echo $str;
-
+		header("Content-Type:application/octet-stream");
+		readfile('sb2-js/'.$str);
 	}
 ?>
