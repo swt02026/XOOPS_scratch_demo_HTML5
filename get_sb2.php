@@ -1,4 +1,6 @@
 <?php 
-	$str = htmlspecialchars($_GET['filename']);
-	echo $str;
+	if (isset($_GET['filename']) && $str = htmlspecialchars($_GET['filename'])) {
+		echo $str;
+
+	}
 ?>
