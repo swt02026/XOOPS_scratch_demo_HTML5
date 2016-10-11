@@ -7,14 +7,14 @@
 		<script type="text/javascript" src="http://canvg.googlecode.com/svn/trunk/rgbcolor.js"></script> 
 		<script type="text/javascript" src="http://canvg.googlecode.com/svn/trunk/canvg.js"></script> 
 
-		<script type="text/javascript" src="script/sb2.js"></script> 
+		<script type="text/javascript" src="sb2/script/sb2.js"></script> 
 	</head>
 	<body>
-			<canvas id='scratch' width='486' height='391'>
+			<canvas id='scratch' width='486' height='391' tabindex='1'>
 				 
 			</canvas>
 			<div>
-			<select id="urlToLoad">
+			<select style='margin:2px 0px 12px 0px;' id="urlToLoad">
 
 			<option>---TESTS (incomplete)---</option>
 			<option>exectest.sb2</option>
@@ -71,7 +71,7 @@
 
 			</select>
 			<input style='padding:2px;'
-			onclick='ReadFile("examples/" + document.getElementById("urlToLoad").value)' type='button' title='Play' value='Play'/>
+			onclick='ReadFile("sb2/examples/" + document.getElementById("urlToLoad").value)' type='button' title='Play' value='Play'/>
 			</div>
 		
 	</body>
