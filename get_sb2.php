@@ -1,2 +1,4 @@
-$str = htmlspecialchars($_GET['filename']);
-echo $str;
+<?php 
+	$str = htmlspecialchars($_GET['filename']);
+	echo $str;
+?>
