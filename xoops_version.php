@@ -53,15 +53,15 @@ $modversion['hasMain'] = 1;
 
 //---樣板設定---//
 $modversion['templates'] = [
-	[
+	0=>[
 		'file' => 'scratch_demo_about.html',
 		'description' => 'scratch_demo_about.html'
 	],
-	[
+	1=>[
 		'file' => 'scratch_demo_index.html',
 		'description' => 'scratch_demo_index.html'
 	],
-	[
+	2=>[
 		'file' => 'scratch_demo_demo.html',
 		'description' => 'scratch_demo_demo.html'
 	]	
