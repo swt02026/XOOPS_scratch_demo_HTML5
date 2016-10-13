@@ -6,6 +6,5 @@
 		header('Content-Length:'.filesize('sb2-js/examples/'.$str))
 		header('Accept-Ranges: bytes')
 		readfile('sb2-js/examples/'.$str);
-		exit;
 	}
 ?>
