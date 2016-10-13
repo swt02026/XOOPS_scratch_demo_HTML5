@@ -56,10 +56,6 @@ $modversion['hasMain'] = 1;
 
 $modversion['templates'] = [
 	[
-		'file' => 'scratch_demo_demo.html',
-		'description' => 'scratch_demo_demo.html'
-	],
-	[
 		'file' => 'scratch_demo_about.html',
 		'description' => 'scratch_demo_about.html'
 	],
