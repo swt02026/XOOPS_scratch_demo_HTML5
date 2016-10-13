@@ -17,7 +17,6 @@
 
 // base 64 encode by some guy 
 // thanks some guy
-basedir = 'sb2-js/'
 function createVarRefs(spriten) {
 
 //setting var refs
@@ -2677,7 +2676,7 @@ function mouseUp(evt) {
 function init() {
 
 	if (typeof framed == "undefined") framed = true;
-	if (typeof basedir == "undefined") basedir = "sb2-js/";
+	if (typeof basedir == "undefined") basedir = "";
 	if (typeof framerate == "undefined") framerate = 30;
 
 	movedSincePen = false;
