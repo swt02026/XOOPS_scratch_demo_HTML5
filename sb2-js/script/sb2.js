@@ -17,7 +17,7 @@
 
 // base 64 encode by some guy 
 // thanks some guy
-
+basedir = 'sb2-js'
 function createVarRefs(spriten) {
 
 //setting var refs
