@@ -2677,7 +2677,7 @@ function mouseUp(evt) {
 function init() {
 
 	if (typeof framed == "undefined") framed = true;
-	if (typeof basedir == "undefined") basedir = "";
+	if (typeof basedir == "undefined") basedir = "sb2-js/";
 	if (typeof framerate == "undefined") framerate = 30;
 
 	movedSincePen = false;
