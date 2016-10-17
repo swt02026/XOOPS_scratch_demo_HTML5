@@ -5,7 +5,7 @@
 	$sb2dir = './sb2-js/examples/';
 	$filenames = array_slice(scandir($sb2dir), 2);
 	$a=['aaa','bbb','ccc'];
-	$xoopsTpl->assign('filenames', $a);
+	$xoopsTpl->assign('filenames', $filenames);
 
 	include_once XOOPS_ROOT_PATH.'/footer.php';
 ?>
