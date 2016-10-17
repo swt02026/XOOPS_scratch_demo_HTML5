@@ -4,7 +4,7 @@
 	include XOOPS_ROOT_PATH."/header.php";
 	$sb2dir = 'sb2-js/examples';
 	$filenames = array_slice(scandir($sb2dir), 2);
-	print_r(scandir('./'));
+	ini_get('disable_function');
 	$xoopsTpl->assign('filenames', $filenames);
 
 	//include_once XOOPS_ROOT_PATH.'/footer.php';
