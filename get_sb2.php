@@ -1,7 +1,6 @@
 <?php 
-	if (isset($_GET['filename']) &&
-		$str = preg_replace("/[&#!*;%@~^$]/", '', $_GET['filename'])
-		&& $str = addslashes(htmlspecialchars($str)))  {
+	if (isset($_GET['filename']) 
+		&& $str = addslashes(htmlspecialchars($_GET['filename'])))  {
 		header("Content-Type:application/octet-stream");
 		header('Content-Disposition: attachment; filename="'.$str.'"');
 		ob_clean();
