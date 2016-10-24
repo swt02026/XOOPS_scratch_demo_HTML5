@@ -15,12 +15,12 @@ $adminmenu=[
 		'desc' => "",
 		'icon' => 'images/admin/about.png' 
 	],
-	[
-		'title' => "demo",
-		'link' =>  'admin/index.php',
-		'desc' => "",
-		'icon' => 'images/admin/demo.png' 
-	]
+    [
+        'title' => "upload",
+        'link' =>  'admin/index.php',
+        'desc' => "",
+        'icon' => 'images/admin/demo.png'
+    ]
 
 ];
 ?>
