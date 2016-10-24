@@ -1,6 +1,6 @@
 <?php
     $uploadDir = '../sb2-js/examples/';
-	#$storage = new \Upload\Storage\FileSystem($uploadDir);
+	$storage = new \Upload\Storage\FileSystem($uploadDir);
     $file = new \Upload\File('file', $storage);
 
     $file->addValidations([
