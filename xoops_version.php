@@ -35,7 +35,7 @@ $modversion['system_menu'] = 1;
 
 //---後台管理介面設定---//
 $modversion['hasAdmin'] = 1;
-$modversion['adminindex'] = 'admin/upload.php';
+$modversion['adminindex'] = 'index.php';
 $modversion['adminmenu'] = 'admin/menu.php';
 
 
