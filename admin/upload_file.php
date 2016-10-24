@@ -1,11 +1,13 @@
 <?php
-	$storage = new \Upload\Storage\FileSystem('../sb2-js/examples/');
+    $uploadDir = '../sb2-js/examples/';
+	$storage = new \Upload\Storage\FileSystem($uploadDir);
     $file = new \Upload\File('file', $storage);
 
     $file->addValidations([
         new \Upload\Validation\Mimetype('application/octet-stream'),
         new \Upload\Validation\Extension('sb2'),
-        new \Upload\Validation\Size('5M')
+        new \Upload\Validation\Size('5M'),
+        new \Upload\Validation\FileExist($uploadDir)
     ]);
 
     try{
