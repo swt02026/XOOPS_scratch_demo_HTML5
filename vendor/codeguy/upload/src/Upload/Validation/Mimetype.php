@@ -72,7 +72,7 @@ class Mimetype extends \Upload\Validation\Base
      */
     public function validate(\Upload\File $file)
     {
-        echo $file->getMimetype()."\n$this->mimetypes[0]";
+        echo $file->getMimetype()."\n".$this->mimetypes[0];
         return in_array($file->getMimetype(), $this->mimetypes);
     }
 }
