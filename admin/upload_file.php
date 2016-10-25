@@ -15,5 +15,6 @@
         $file->upload();
     }catch (\Exception $e){
         echo $e->getMessage();
+        print_r($file->getErrors());
     }
 ?>
