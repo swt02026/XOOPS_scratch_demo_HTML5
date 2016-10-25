@@ -14,7 +14,8 @@
         {
 
             // TODO: Implement validate() method.
-            return file_exists($this->dirName.$file->getNameWithExtension());
+            $this->setMessage('file exist');
+            return !file_exists($this->dirName.$file->getNameWithExtension());
 
         }
 
