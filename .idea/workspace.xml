@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="upload_file.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upload_file.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/upload_file.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mimetype.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mimetype.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/Mimetype.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+            <state relative-caret-position="705">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/templates/scratch_demo_index.html" />
         <option value="$PROJECT_DIR$/src/Validation/FileExist.php" />
         <option value="$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/FileExist.php" />
-        <option value="$PROJECT_DIR$/admin/upload_file.php" />
         <option value="$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/Mimetype.php" />
+        <option value="$PROJECT_DIR$/admin/upload_file.php" />
       </list>
     </option>
   </component>
@@ -403,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="16068000" />
+      <workItem from="1477040047295" duration="16131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16068000" />
+    <option name="totallyTimeSpent" value="16131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
@@ -601,6 +601,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/Mimetype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/FileExist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -612,15 +620,7 @@
     <entry file="file://$PROJECT_DIR$/admin/upload_file.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/Mimetype.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="34" />
           <folding />
         </state>
       </provider>
