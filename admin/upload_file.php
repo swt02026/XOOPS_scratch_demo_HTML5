@@ -14,6 +14,7 @@
     try{
         $file->upload();
     }catch (\Exception $e){
+        echo $file->getMimetype();
         echo $e->getMessage();
         print_r($file->getErrors());
     }
