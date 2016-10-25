@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_sb2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_sb2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/get_sb2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -41,11 +41,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sb2.2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb2-js/script/sb2.2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sb2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb2-js/script/sb2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="4254" column="26" selection-start-line="4254" selection-start-column="16" selection-end-line="4254" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sb2-js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipFile.complete.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb2-js/script/ZipFile.complete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch_demo_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/scratch_demo_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -56,36 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch_demo_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/scratch_demo_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -107,10 +131,11 @@
         <option value="$PROJECT_DIR$/src/Validation/FileExist.php" />
         <option value="$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/FileExist.php" />
         <option value="$PROJECT_DIR$/vendor/codeguy/upload/src/Upload/Validation/Mimetype.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/menu.php" />
         <option value="$PROJECT_DIR$/admin/upload_file.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/src/get_sb2.php" />
+        <option value="$PROJECT_DIR$/sb2-js/index.html" />
       </list>
     </option>
   </component>
@@ -222,6 +247,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sb2-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XOOPS-scratch-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XOOPS-scratch-demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -296,12 +339,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="19667000" />
+      <workItem from="1477040047295" duration="21038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19667000" />
+    <option name="totallyTimeSpent" value="21038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
@@ -486,14 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -502,10 +537,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/scratch_demo_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -514,6 +557,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb2-js/script/sb2.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb2-js/script/ZipFile.complete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb2-js/script/sb2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="4254" column="26" selection-start-line="4254" selection-start-column="16" selection-end-line="4254" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb2-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
           <folding />
         </state>
       </provider>
