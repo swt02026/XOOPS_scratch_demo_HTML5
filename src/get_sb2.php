@@ -1,9 +1,6 @@
 <?php 
 	if (isset($_GET['filename']) 
-		&& $str = filter_var(
-		            addslashes(
-		                htmlspecialchars($_GET['filename']))
-            , FILTER_SANITIZE_STRING))  {
+		&& $str = addslashes(htmlspecialchars($_GET['filename'])))  {
 		header("Content-Type:application/octet-stream");
 		header('Content-Disposition: attachment; filename="'.$str.'"');
 		ob_clean();
