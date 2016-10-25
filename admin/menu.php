@@ -17,7 +17,7 @@ $adminmenu=[
 	],
     [
         'title' => "上傳作品",
-        'link' =>  'admin/index.php',
+        'link' =>  'admin/upload.php',
         'desc' => "",
         'icon' => 'images/admin/demo.png'
     ]
