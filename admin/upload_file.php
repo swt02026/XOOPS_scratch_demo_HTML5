@@ -5,7 +5,7 @@
     $file = new \Upload\File('file', $storage);
 
     $file->addValidations([
-        new \Upload\Validation\Mimetype('application/octet-stream'),
+        new \Upload\Validation\Mimetype('application/zipFile'),
         new \Upload\Validation\Extension('sb2'),
         new \Upload\Validation\Size('5M'),
         new \Upload\Validation\FileExist($uploadDir)
