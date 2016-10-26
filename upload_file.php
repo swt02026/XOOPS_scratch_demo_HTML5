@@ -14,6 +14,8 @@
     try{
         $file->upload();
     }catch (\Exception $e){
-        echo $e->getMessage();
+        $error = implode('\n',$file->getErrors());
+        echo "alert($error)";
+
     }
 ?>
