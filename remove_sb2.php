@@ -22,5 +22,5 @@
 
     (sizeof($which_del)) > 0 &&
         array_map('unlink', $which_del) or die('delete error');
-    header('admin/modify_list.php');
+    echo '<script>'."window.location.href='admin/modify_list.php';".'</script>';
 ?>
