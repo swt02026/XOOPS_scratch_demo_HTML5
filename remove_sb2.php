@@ -1,7 +1,7 @@
 <?php
     function escape($filename){
-
-        return addslashes(htmlspecialchars($filename));
+        echo "aa";
+        return htmlspecialchars($filename);
     }
     $which_del = implode(',', $_POST['which_del']);
     $del = array_map("escape",$which_del);
