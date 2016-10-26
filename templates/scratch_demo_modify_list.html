@@ -15,30 +15,26 @@
         <div class="container">
             <div class="row">
                 <form action="../remove_sb2.php" method="POST">
-                    <div class="form-group">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <td>選取</td>
-                                <td>檔名</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                <{foreach from=$filenames item=filename}>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input type="checkbox" />
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <{$filename}>
-                                        </td>
-                                    </tr>
-                                <{/foreach}>
-                            </tbody>
-                        </table>
-                    </div>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <td>選取</td>
+                            <td>檔名</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <{foreach from=$filenames item=filename}>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" />
+                                    </td>
+                                    <td>
+                                        <{$filename}>
+                                    </td>
+                                </tr>
+                            <{/foreach}>
+                        </tbody>
+                    </table>
                 </form>
             </div>
         </div>
