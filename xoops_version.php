@@ -66,7 +66,11 @@ $modversion['templates'] = [
 	[
 		'file' => 'scratch_demo_index.html',
 		'description' => 'scratch_demo_index.html'
-	]
+	],
+    [
+        'file' => 'scratch_demo_modify_list.html',
+        'description' => 'scratch_demo_modify_list.html'
+    ]
 
 ];
 

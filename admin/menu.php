@@ -11,7 +11,7 @@
         ],
         [
             'title' => '作品管理',
-            'link' => 'admin/modi',
+            'link' => 'admin/modify_list.php',
             'desc' => '',
             'icon' => 'image/admin/demo.png'
 
