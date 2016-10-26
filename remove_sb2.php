@@ -12,5 +12,5 @@
             return in_array($filename, $filenames);
         }
     );
-    array_map('unlink', $which_del);
+    array_map('unlink', $which_del) or die('delete error');
 ?>
