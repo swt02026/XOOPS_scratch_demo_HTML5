@@ -13,5 +13,5 @@
         }
     );
     (sizeof($which_del)) > 0 &&
-        array_map('unlink', $which_del) or die('delete error');
+        array_map('unlink', $sb2dir.$which_del) or die('delete error');
 ?>
