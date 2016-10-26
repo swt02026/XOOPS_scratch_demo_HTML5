@@ -17,5 +17,5 @@
         $error = implode('\n',$file->getErrors());
         echo '<script>'."alert( '{$error}' );".'</script>';
     }
-    echo '<script>'."window.location.href='admin/upload.php;'".'</script>';
+    echo '<script>'."window.location.href='admin/upload.php';".'</script>';
 ?>

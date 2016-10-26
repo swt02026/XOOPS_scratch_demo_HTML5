@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remove_sb2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="remove_sb2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remove_sb2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_file.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upload_file.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload_file.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -85,8 +85,8 @@
         <option value="$PROJECT_DIR$/templates/scratch_demo_modify_list.html" />
         <option value="$PROJECT_DIR$/templates/scratch_demo_upload.html" />
         <option value="$PROJECT_DIR$/get_sb2.php" />
-        <option value="$PROJECT_DIR$/upload_file.php" />
         <option value="$PROJECT_DIR$/remove_sb2.php" />
+        <option value="$PROJECT_DIR$/upload_file.php" />
       </list>
     </option>
   </component>
@@ -295,12 +295,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="49856000" />
+      <workItem from="1477040047295" duration="49919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49856000" />
+    <option name="totallyTimeSpent" value="49919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
@@ -557,6 +557,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/remove_sb2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/get_sb2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -568,15 +576,7 @@
     <entry file="file://$PROJECT_DIR$/upload_file.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove_sb2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
           <folding />
         </state>
       </provider>
