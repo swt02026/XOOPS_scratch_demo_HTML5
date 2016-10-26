@@ -1,6 +1,9 @@
 <?php
+    function escape($filename){
 
-    $which_del = implode(',', $_POST['which_del']);
-
+        return addslashes(htmlspecialchars($filename));
+    }
+    $which_del =
+        array_map("escape",implode(',', $_POST['which_del']));
     print_r($which_del);
 ?>
