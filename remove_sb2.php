@@ -12,6 +12,11 @@
             return in_array($filename, $filenames);
         }
     );
+    $which_del = array_map(
+        function ($filename) use ($sb2dir){
+            return $sb2dir.$filename;
+        }
+    ,$which_del);
     (sizeof($which_del)) > 0 &&
-        array_map('unlink', $sb2dir.$which_del) or die('delete error');
+        array_map('unlink', $which_del) or die('delete error');
 ?>
