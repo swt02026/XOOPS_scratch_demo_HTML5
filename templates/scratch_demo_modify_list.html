@@ -14,22 +14,28 @@
                 <form action="../remove_sb2.php" method="POST">
                     <div class="form-group">
                         <table class="table">
-
-                            <{foreach from=$filenames item=filename}>
-                                <tr>
-                                    <td>
-                                        <label for="" class="label">
-                                            <{$filename}>
-                                        </label>
-                                    </td>
-                                    <td>
-                                        <div class="checkbox">
-                                            <input type="checkbox" />
-                                        </div>
-                                    </td>
-                                </tr>
-                            <{/foreach}>
-
+                            <thead>
+                            <tr>
+                                <td>選取</td>
+                                <td>檔名</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <{foreach from=$filenames item=filename}>
+                                    <tr>
+                                        <td>
+                                            <div class="checkbox">
+                                                <input type="checkbox" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <label for="" class="label">
+                                                <{$filename}>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                <{/foreach}>
+                            </tbody>
                         </table>
                     </div>
                 </form>
