@@ -13,15 +13,24 @@
             <div class="row">
                 <form action="../remove_sb2.php" method="POST">
                     <div class="form-group">
-                        <{foreach from=$filenames item=filename}>
-                        <label for="" class="label">
-                            <{$filename}>
-                        </label>
-                        <div class="checkbox">
-                            <input type="checkbox" />
+                        <table class="table">
 
-                        </div>
-                        <{/foreach}>
+                            <{foreach from=$filenames item=filename}>
+                                <tr>
+                                    <td>
+                                        <label for="" class="label">
+                                            <{$filename}>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            <{/foreach}>
+
+                        </table>
                     </div>
                 </form>
             </div>
