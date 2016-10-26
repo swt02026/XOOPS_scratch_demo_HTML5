@@ -11,7 +11,7 @@
         ],
         [
             'title' => '作品管理',
-            'link' => '',
+            'link' => 'admin/modi',
             'desc' => '',
             'icon' => 'image/admin/demo.png'
 
