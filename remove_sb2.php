@@ -12,5 +12,6 @@
             return in_array($filename, $filenames);
         }
     );
-    array_map('unlink', $which_del) or die('delete error');
+    (sizeof($which_del)) > 0 &&
+        array_map('unlink', $which_del) or die('delete error');
 ?>
