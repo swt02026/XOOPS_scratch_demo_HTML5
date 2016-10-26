@@ -2,6 +2,7 @@
     $escape = function ($filename){
         return addslashes(htmlspecialchars($filename));
     };
+
     $sb2dir = 'sb2-js/examples/';
     $filenames = array_slice(scandir($sb2dir), 2);
 
@@ -11,5 +12,5 @@
             return in_array($filename, $filenames);
         }
     );
-    print_r($which_del);
+    array_map('unlink', $which_del);
 ?>
