@@ -15,7 +15,7 @@
         $file->upload();
     }catch (\Exception $e){
         $error = implode('\n',$file->getErrors());
-        echo "alert($error)";
+        echo "<script>alert($error)</script>";
 
     }
 ?>
