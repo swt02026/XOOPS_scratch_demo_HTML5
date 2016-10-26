@@ -31,21 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remove_sb2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="remove_sb2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remove_sb2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_sb2.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_sb2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_sb2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -80,7 +90,6 @@
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/src/get_sb2.php" />
         <option value="$PROJECT_DIR$/sb2-js/index.html" />
-        <option value="$PROJECT_DIR$/get_sb2.php" />
         <option value="$PROJECT_DIR$/templates/scratch_demo_index.html" />
         <option value="$PROJECT_DIR$/admin/menu.php" />
         <option value="$PROJECT_DIR$/xoops_version.php" />
@@ -89,6 +98,7 @@
         <option value="$PROJECT_DIR$/templates/scratch_demo_upload.html" />
         <option value="$PROJECT_DIR$/upload_file.php" />
         <option value="$PROJECT_DIR$/remove_sb2.php" />
+        <option value="$PROJECT_DIR$/get_sb2.php" />
       </list>
     </option>
   </component>
@@ -204,6 +214,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sb2-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XOOPS-scratch-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XOOPS-scratch-demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -279,15 +307,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="42643000" />
+      <workItem from="1477040047295" duration="44514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42643000" />
+    <option name="totallyTimeSpent" value="44514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="1016" y="-8" width="1296" height="1040" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -473,14 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -541,14 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_sb2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/modify_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -559,8 +571,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remove_sb2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_sb2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>
