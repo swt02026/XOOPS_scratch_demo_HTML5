@@ -12,7 +12,7 @@
     <body>
         <h1 style="text-align:center">檔案管理</h1>
         <hr>
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <form action="../remove_sb2.php" method="POST">
                     <table class="table">
@@ -26,7 +26,7 @@
                             <{foreach from=$filenames item=filename}>
                                 <tr>
                                     <td>
-                                        <input type="checkbox" />
+                                        <input type="checkbox" name="which_del[]"/>
                                     </td>
                                     <td>
                                         <{$filename}>
@@ -35,6 +35,7 @@
                             <{/foreach}>
                         </tbody>
                     </table>
+                    <input type="submit">
                 </form>
             </div>
         </div>
