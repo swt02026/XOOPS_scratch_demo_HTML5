@@ -18,7 +18,7 @@
         ],
         [
             'title' => "about",
-            'link' =>  'admin/about.php',
+            'link' =>  'admin/about.html',
             'desc' => "",
             'icon' => 'images/admin/about.png'
         ],
