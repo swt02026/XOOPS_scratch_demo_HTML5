@@ -6,20 +6,20 @@
         [
             'title' => "上傳作品",
             'link' =>  'admin/upload.php',
-            'desc' => "",
+            'desc' => "上傳作品",
             'icon' => 'images/admin/demo.png'
         ],
         [
             'title' => '作品管理',
             'link' => 'admin/modify_list.php',
-            'desc' => '',
+            'desc' => '作品管理',
             'icon' => 'image/admin/demo.png'
 
         ],
         [
-            'title' => "about",
+            'title' => "關於",
             'link' =>  'admin/about.php',
-            'desc' => "",
+            'desc' => "關於",
             'icon' => 'images/admin/about.png'
         ],
     ];
