@@ -12,3 +12,4 @@ fileinfo extension for php
 [brandonsavage/Upload](https://github.com/brandonsavage/Upload)
 
 [careck/sb2-js](https://github.com/careck/sb2-js)
+
