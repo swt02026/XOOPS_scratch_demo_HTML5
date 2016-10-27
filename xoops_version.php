@@ -8,8 +8,6 @@ $modversion['description'] = "Scratch檔案展示";
 $modversion['author'] = "swt02026";
 $modversion['credits'] = "";
 $modversion['help'] = 'page=help';
-$modversion['license'] = 'GNU GPL 2.0';
-$modversion['license_url'] = 'www.gnu.org/licenses/gpl-2.0.html/';
 $modversion['image'] = "images/logo.jpg";
 $modversion['dirname'] = basename(dirname(__FILE__));
 
