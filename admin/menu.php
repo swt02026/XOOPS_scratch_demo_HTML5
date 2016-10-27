@@ -4,16 +4,16 @@
 
     $adminmenu=[
         [
-            'title' => "作品展示",
-            'link' =>  'index.php',
-            'desc' => "作品展示",
-            'icon' => 'images/admin/demo.jpg'
-        ],
-        [
             'title' => "上傳作品",
             'link' =>  'admin/upload.php',
             'desc' => "上傳作品",
             'icon' => 'images/admin/upload.jpg'
+        ],
+        [
+            'title' => "作品展示",
+            'link' =>  'index.php',
+            'desc' => "作品展示",
+            'icon' => 'images/admin/demo.jpg'
         ],
         [
             'title' => '作品管理',
