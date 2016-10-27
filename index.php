@@ -2,19 +2,9 @@
 	include '../../mainfile.php';
 	$xoopsOption['template_main'] = "scratch_demo_index.html";
 	include XOOPS_ROOT_PATH."/header.php";
-	$all_data=[
-		[
-			"link" => "google.com",
-			"class_num" => 1
-		],
-		[
-			"link" => "google2.com",
-			"class_num" => 2
-		]
-	];
+	$sb2dir = 'sb2-js/examples';
+	$filenames = array_slice(scandir($sb2dir), 2);
+	$xoopsTpl->assign('filenames', $filenames);
 
-	//$xoopsTpl->assign('data', "aaa");
-	//$xoopsTpl->assign('all_data', $all_data);
-	
 	include_once XOOPS_ROOT_PATH.'/footer.php';
 ?>

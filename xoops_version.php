@@ -35,7 +35,7 @@ $modversion['system_menu'] = 1;
 
 //---後台管理介面設定---//
 $modversion['hasAdmin'] = 1;
-$modversion['adminindex'] = 'admin/index.php';
+$modversion['adminindex'] = 'index.php';
 $modversion['adminmenu'] = 'admin/menu.php';
 
 
@@ -53,15 +53,24 @@ $modversion['hasMain'] = 1;
 
 //---樣板設定---//
 
-$modversion['templates'][] = [
+
+$modversion['templates'] = [
+    [
+        'file' => 'scratch_demo_upload.html',
+        'description' => 'scratch_demo_upload.html'
+    ],
 	[
-		'file'=> 'scratch_demo_about.html',
-		'description'=>'scratch_demo_about.html'
+		'file' => 'scratch_demo_about.html',
+		'description' => 'scratch_demo_about.html'
 	],
 	[
-		'file'=> 'scratch_demo_index.html',
-		'description'=>'scratch_demo_index.html'
-	]
+		'file' => 'scratch_demo_index.html',
+		'description' => 'scratch_demo_index.html'
+	],
+    [
+        'file' => 'scratch_demo_modify_list.html',
+        'description' => 'scratch_demo_modify_list.html'
+    ]
 
 ];
 
