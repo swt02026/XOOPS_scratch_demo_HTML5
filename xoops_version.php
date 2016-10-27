@@ -11,7 +11,7 @@ $modversion['help'] = 'page=help';
 $modversion['license'] = 'GNU GPL 2.0';
 $modversion['license_url'] = 'www.gnu.org/licenses/gpl-2.0.html/';
 $modversion['image'] = "images/logo.jpg";
-$modversion['dirname'] = basename(dirname(__FILE__)).'/admin';
+$modversion['dirname'] = basename(dirname(__FILE__));
 
 // //---模組狀態資訊---//
 // $modversion['release_date'] = '';
@@ -35,7 +35,7 @@ $modversion['system_menu'] = 1;
 
 //---後台管理介面設定---//
 $modversion['hasAdmin'] = 1;
-$modversion['adminindex'] = 'admin/';
+$modversion['adminindex'] = 'admin/index.php';
 $modversion['adminmenu'] = 'admin/menu.php';
 
 
