@@ -1,4 +1,4 @@
-# XOOPS-scratch-demo
+# XOOPS scratch demo module in HTML5
 ###A module to demo Scratch program(sb2) for XOOPS CMS
 
 #### Requirement
