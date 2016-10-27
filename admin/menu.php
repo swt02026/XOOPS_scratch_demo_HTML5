@@ -19,7 +19,7 @@
             'title' => '作品管理',
             'link' => 'admin/modify_list.php',
             'desc' => '作品管理',
-            'icon' => 'image/admin/manage.jpg'
+            'icon' => 'images/admin/manage.jpg'
 
         ],
         [
