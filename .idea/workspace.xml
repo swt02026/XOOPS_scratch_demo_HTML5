@@ -44,8 +44,8 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="476">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -344,12 +344,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="58301000" />
+      <workItem from="1477040047295" duration="58905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58301000" />
+    <option name="totallyTimeSpent" value="58905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
@@ -499,7 +499,7 @@
         <state relative-caret-position="1114">
           <caret line="4252" column="32" selection-start-line="4252" selection-start-column="32" selection-end-line="4252" selection-end-column="32" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -509,7 +509,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="476">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding />
         </state>
       </provider>
