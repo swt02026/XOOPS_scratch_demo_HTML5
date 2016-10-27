@@ -29,13 +29,15 @@
                                         <input type="checkbox" name="which_del[]" value="<{$filename}>"/>
                                     </td>
                                     <td>
-                                        <{$filename}>
+                                        <a href="get_sb2.php?filename=<{$filename}>">
+                                            <{$filename}>
+                                        </a>
                                     </td>
                                 </tr>
                             <{/foreach}>
                         </tbody>
                     </table>
-                    <input type="submit">
+                    <input type="submit" value="刪除選取">
                 </form>
             </div>
         </div>

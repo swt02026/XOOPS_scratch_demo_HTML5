@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,16 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch_demo_about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/scratch_demo_about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="45" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -113,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch_demo_modify_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scratch_demo_modify_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/scratch_demo_modify_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="527">
+              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -145,7 +135,6 @@
         <option value="$PROJECT_DIR$/templates/scratch_demo_index.html" />
         <option value="$PROJECT_DIR$/xoops_version.php" />
         <option value="$PROJECT_DIR$/admin/modify_list.php" />
-        <option value="$PROJECT_DIR$/templates/scratch_demo_modify_list.html" />
         <option value="$PROJECT_DIR$/templates/scratch_demo_upload.html" />
         <option value="$PROJECT_DIR$/get_sb2.php" />
         <option value="$PROJECT_DIR$/upload_file.php" />
@@ -155,6 +144,7 @@
         <option value="$PROJECT_DIR$/admin/scratch_demo_about.html" />
         <option value="$PROJECT_DIR$/admin/menu.php" />
         <option value="$PROJECT_DIR$/admin/about.php" />
+        <option value="$PROJECT_DIR$/templates/scratch_demo_modify_list.html" />
       </list>
     </option>
   </component>
@@ -365,15 +355,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477040044717</updated>
-      <workItem from="1477040047295" duration="55027000" />
+      <workItem from="1477040047295" duration="55237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55027000" />
+    <option name="totallyTimeSpent" value="55237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1016" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="1016" y="-8" width="1296" height="1040" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -599,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/scratch_demo_modify_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -646,10 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/scratch_demo_about.html">
+    <entry file="file://$PROJECT_DIR$/admin/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="45" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -662,6 +642,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/scratch_demo_about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xoops_version.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -670,11 +658,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/about.php">
+    <entry file="file://$PROJECT_DIR$/templates/scratch_demo_modify_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="527">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
