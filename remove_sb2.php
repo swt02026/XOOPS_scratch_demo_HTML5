@@ -17,5 +17,5 @@ $which_del = array_map(function ($filename) use ($sb2dir) {
 }, $which_del);
 
 (sizeof($which_del)) > 0
-&& array_map('unlink', $which_del) or die('delete error');
+&& array_map('unlink', $which_del) || exit('delete error');
 echo '<script>' . "window.location.href='admin/modify_list.php';" . '</script>';
