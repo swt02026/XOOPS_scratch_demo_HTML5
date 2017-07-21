@@ -12,6 +12,5 @@ define('AM_SCRATCH_FILE_MANAGEMENT', 'File Management');
 define('AM_SCRATCH_SELECT', 'Select');
 define('AM_SCRATCH_FILE_NAME', 'File Name');
 define('AM_SCRATCH_REMOVE_SELECTED', 'Remove Selected');
-
 define('AM_SCRATCH_UPLOAD_FILE', 'Upload File');
 define('AM_SCRATCH_GALLERY', 'Gallery');
