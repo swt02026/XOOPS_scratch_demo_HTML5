@@ -2,30 +2,46 @@
 $adminmenu = array();
 $icon_dir  = substr(XOOPS_VERSION, 6, 3) == '2.6' ? "" : "images/";
 
+$moduleDirName = basename(dirname(__DIR__));
+
+if (false !== ($moduleHelper = Xmf\Module\Helper::getHelper($moduleDirName))) {
+} else {
+    $moduleHelper = Xmf\Module\Helper::getHelper('system');
+}
+$adminObject = \Xmf\Module\Admin::getInstance();
+
+$pathIcon32    = \Xmf\Module\Admin::menuIconPath('');
+
 $adminmenu = [
     [
-        'title' => "上傳作品",
+        'title' => MI_SCRATCH_ADMENU0,
+        'link'  => 'admin/index.php',
+        'desc'  => "Home",
+        'icon'  => $pathIcon32 . '/home.png'
+    ],
+    [
+        'title' => MI_SCRATCH_ADMENU2,
         'link'  => 'admin/upload.php',
-        'desc'  => "上傳作品",
-        'icon'  => 'assets/images/admin/upload.jpg'
+        'desc'  => MI_SCRATCH_ADMENU2_DESC,
+        'icon'  => $pathIcon32 . '/upload.png'
     ],
     [
-        'title' => "作品展示",
+        'title' => MI_SCRATCH_ADMENU1,
         'link'  => 'index.php',
-        'desc'  => "作品展示",
-        'icon'  => 'assets/images/admin/demo.jpg'
+        'desc'  => MI_SCRATCH_ADMENU1_DESC,
+        'icon'  => $pathIcon32 . '/face-smile.png'
     ],
     [
-        'title' => '作品管理',
+        'title' => MI_SCRATCH_ADMENU3,
         'link'  => 'admin/modify_list.php',
-        'desc'  => '作品管理',
-        'icon'  => 'assets/images/admin/manage.jpg'
+        'desc'  => MI_SCRATCH_ADMENU3_DESC,
+        'icon'  => $pathIcon32 . '/manage.png'
 
     ],
     [
-        'title' => "關於",
+        'title' => MI_SCRATCH_ADMENU5,
         'link'  => 'admin/about.php',
-        'desc'  => "關於",
-        'icon'  => 'assets/images/admin/about.jpg'
+        'desc'  => MI_SCRATCH_ADMENU5_DESC,
+        'icon'  => $pathIcon32 . '/about.png'
     ]
 ];
