@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,10 +7,8 @@
 </head>
 <body>
     <form action="../upload_file.php" method="POST" enctype="multipart/form-data">
-
+        <{securityToken}>
         <input type="file" name="file" accept=".sb2" />
-        <input class="" type="submit" value="檔案上傳" />
+        <input class="" type="submit" value="<{$smarty.const.AM_SCRATCH_UPLOAD_FILE}>" />
     </form>
 </body>
-</html>
-

@@ -1,5 +1,3 @@
-<!doctype html>
-<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
@@ -10,16 +8,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1 style="text-align:center">檔案管理</h1>
+        <h1 style="text-align:center"><{$smarty.const.AM_SCRATCH_FILE_MANAGEMENT}></h1>
         <hr>
         <div class="container" >
             <div class="row">
                 <form action="../remove_sb2.php" method="POST">
+                    <{securityToken}>
                     <table class="table">
                         <thead>
                         <tr>
-                            <td>選取</td>
-                            <td>檔名</td>
+                            <td><{$smarty.const.AM_SCRATCH_SELECT}></td>
+                            <td><{$smarty.const.AM_SCRATCH_FILE_NAME}></td>
                         </tr>
                         </thead>
                         <tbody>
@@ -37,9 +36,9 @@
                             <{/foreach}>
                         </tbody>
                     </table>
-                    <input type="submit" value="刪除選取">
+                    <input type="submit" value="<{$smarty.const.AM_SCRATCH_REMOVE_SELECTED}>">
                 </form>
             </div>
         </div>
     </body>
-</html>
+

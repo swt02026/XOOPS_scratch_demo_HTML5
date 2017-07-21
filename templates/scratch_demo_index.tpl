@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="sb2-js/script/sb2.js"></script> 
 	</head>
 	<body>
-		<h1 style="text-align:center;">作品展示</h1>
+		<h1 style="text-align:center;"><{$smarty.const.MD_SCRATCH_GALLERY}></h1>
 		<hr />
 		<div class="container"  style="text-align: center;">
 			<div class="row">
