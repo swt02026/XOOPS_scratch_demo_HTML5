@@ -28,6 +28,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 namespace Upload\Validation;
 
 /**
@@ -87,7 +88,7 @@ class Size extends \Upload\Validation\Base
     public function validate(\Upload\File $file)
     {
         $fileSize = $file->getSize();
-        $isValid = true;
+        $isValid  = true;
 
         if ($fileSize < $this->minSize) {
             $this->setMessage('File size is too small');

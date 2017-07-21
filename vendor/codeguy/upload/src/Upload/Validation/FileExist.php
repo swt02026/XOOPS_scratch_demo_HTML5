@@ -1,24 +1,27 @@
 <?php
-    namespace Upload\Validation;
 
-    class FileExist extends \Upload\Validation\Base {
+namespace Upload\Validation;
 
-        private $dirName;
+class FileExist extends \Upload\Validation\Base
+{
 
-        public function __construct($dirName)
-        {
-            $this->dirName = $dirName;
-        }
+    private $dirName;
 
-        public function validate(\Upload\File $file)
-        {
+    public function __construct($dirName)
+    {
+        $this->dirName = $dirName;
+    }
 
-            // TODO: Implement validate() method.
-            $this->setMessage('file exist');
-            return !file_exists($this->dirName.$file->getNameWithExtension());
+    public function validate(\Upload\File $file)
+    {
 
-        }
+        // TODO: Implement validate() method.
+        $this->setMessage('file exist');
+
+        return !file_exists($this->dirName . $file->getNameWithExtension());
 
     }
+
+}
 
 ?>

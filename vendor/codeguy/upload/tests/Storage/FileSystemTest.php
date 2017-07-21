@@ -1,4 +1,5 @@
 <?php
+
 class FileSystemTest extends PHPUnit_Framework_TestCase
 {
     /**
@@ -11,21 +12,18 @@ class FileSystemTest extends PHPUnit_Framework_TestCase
 
         // Reset $_FILES superglobal
         $_FILES['foo'] = array(
-            'name' => 'foo.txt',
+            'name'     => 'foo.txt',
             'tmp_name' => $this->assetsDirectory . '/foo.txt',
-            'error' => 0
+            'error'    => 0
         );
     }
 
     public function testInstantiationWithValidDirectory()
     {
         try {
-            $storage = $this->getMock(
-                '\Upload\Storage\FileSystem',
-                array('upload'),
-                array($this->assetsDirectory)
-            );
-        } catch(\InvalidArgumentException $e) {
+            $storage = $this->getMock('\Upload\Storage\FileSystem', array('upload'), array($this->assetsDirectory));
+        }
+        catch (\InvalidArgumentException $e) {
             $this->fail('Unexpected argument thrown during instantiation with valid directory');
         }
     }
@@ -35,11 +33,7 @@ class FileSystemTest extends PHPUnit_Framework_TestCase
      */
     public function testInstantiationWithInvalidDirectory()
     {
-        $storage = $this->getMock(
-            '\Upload\Storage\FileSystem',
-            array('upload'),
-            array('/foo')
-        );
+        $storage = $this->getMock('\Upload\Storage\FileSystem', array('upload'), array('/foo'));
     }
 
     /**
@@ -49,7 +43,7 @@ class FileSystemTest extends PHPUnit_Framework_TestCase
     public function testWillNotOverwriteFile()
     {
         $storage = new \Upload\Storage\FileSystem($this->assetsDirectory, false);
-        $file = new \Upload\File('foo', $storage);
+        $file    = new \Upload\File('foo', $storage);
         $file->upload();
     }
 
@@ -58,22 +52,10 @@ class FileSystemTest extends PHPUnit_Framework_TestCase
      */
     public function testWillOverwriteFile()
     {
-        $storage = $this->getMock(
-            '\Upload\Storage\FileSystem',
-            array('moveUploadedFile'),
-            array($this->assetsDirectory, true)
-        );
-        $storage->expects($this->any())
-                ->method('moveUploadedFile')
-                ->will($this->returnValue(true));
-        $file = $this->getMock(
-            '\Upload\File',
-            array('isUploadedFile'),
-            array('foo', $storage)
-        );
-        $file->expects($this->any())
-             ->method('isUploadedFile')
-             ->will($this->returnValue(true));
+        $storage = $this->getMock('\Upload\Storage\FileSystem', array('moveUploadedFile'), array($this->assetsDirectory, true));
+        $storage->expects($this->any())->method('moveUploadedFile')->will($this->returnValue(true));
+        $file = $this->getMock('\Upload\File', array('isUploadedFile'), array('foo', $storage));
+        $file->expects($this->any())->method('isUploadedFile')->will($this->returnValue(true));
         $this->assertTrue($file->upload());
     }
 }

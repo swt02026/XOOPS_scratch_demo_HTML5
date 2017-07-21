@@ -1,4 +1,5 @@
 <?php
+
 class MimetypeTest extends PHPUnit_Framework_TestCase
 {
     /**
@@ -10,38 +11,32 @@ class MimetypeTest extends PHPUnit_Framework_TestCase
         $this->assetsDirectory = dirname(__DIR__) . '/assets';
 
         // Create stubbed storage instance
-        $this->storage = $this->getMock(
-            '\Upload\Storage\FileSystem',
-            array('upload'),
-            array($this->assetsDirectory)
-        );
-        $this->storage->expects($this->any())
-                      ->method('upload')
-                      ->will($this->returnValue(true));
+        $this->storage = $this->getMock('\Upload\Storage\FileSystem', array('upload'), array($this->assetsDirectory));
+        $this->storage->expects($this->any())->method('upload')->will($this->returnValue(true));
 
         // Reset $_FILES superglobal
         $_FILES['foo'] = array(
-            'name' => 'foo.txt',
+            'name'     => 'foo.txt',
             'tmp_name' => $this->assetsDirectory . '/foo.txt',
-            'error' => 0
+            'error'    => 0
         );
     }
 
     public function testValidMimetype()
     {
-        $file = new \Upload\File('foo', $this->storage);
+        $file       = new \Upload\File('foo', $this->storage);
         $validation = new \Upload\Validation\Mimetype(array(
-            'text/plain'
-        ));
+                                                          'text/plain'
+                                                      ));
         $this->assertTrue($validation->validate($file));
     }
 
     public function testInvalidMimetype()
     {
-        $file = new \Upload\File('foo', $this->storage);
+        $file       = new \Upload\File('foo', $this->storage);
         $validation = new \Upload\Validation\Mimetype(array(
-            'image/png'
-        ));
+                                                          'image/png'
+                                                      ));
         $this->assertFalse($validation->validate($file));
     }
 }

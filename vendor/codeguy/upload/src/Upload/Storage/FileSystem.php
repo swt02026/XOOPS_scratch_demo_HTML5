@@ -28,6 +28,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 namespace Upload\Storage;
 
 /**
@@ -55,8 +56,8 @@ class FileSystem extends \Upload\Storage\Base
 
     /**
      * Constructor
-     * @param  string                       $directory      Relative or absolute path to upload directory
-     * @param  bool                         $overwrite      Should this overwrite existing files?
+     * @param  string $directory Relative or absolute path to upload directory
+     * @param  bool   $overwrite Should this overwrite existing files?
      * @throws \InvalidArgumentException                    If directory does not exist
      * @throws \InvalidArgumentException                    If directory is not writable
      */

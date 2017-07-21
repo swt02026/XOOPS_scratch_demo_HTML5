@@ -1,4 +1,5 @@
 <?php
+
 class FileTest extends PHPUnit_Framework_TestCase
 {
     protected $assetsDirectory;
@@ -6,16 +7,16 @@ class FileTest extends PHPUnit_Framework_TestCase
     protected $storage;
 
     /********************************************************************************
-    * Setup
-    *******************************************************************************/
+     * Setup
+     *******************************************************************************/
 
     public function setUp()
     {
         $this->assetsDirectory = dirname(__FILE__) . '/assets';
-        $_FILES['foo'] = array(
-            'name' => 'foo.txt',
+        $_FILES['foo']         = array(
+            'name'     => 'foo.txt',
             'tmp_name' => $this->assetsDirectory . '/foo.txt',
-            'error' => UPLOAD_ERR_OK
+            'error'    => UPLOAD_ERR_OK
         );
     }
 
@@ -23,32 +24,20 @@ class FileTest extends PHPUnit_Framework_TestCase
     {
         if (is_null($this->storage)) {
             // Prepare storage
-            $this->storage = $this->getMock(
-                '\Upload\Storage\FileSystem',
-                array('upload'),
-                array($this->assetsDirectory)
-            );
-            $this->storage->expects($this->any())
-                          ->method('upload')
-                          ->will($this->returnValue(true));
+            $this->storage = $this->getMock('\Upload\Storage\FileSystem', array('upload'), array($this->assetsDirectory));
+            $this->storage->expects($this->any())->method('upload')->will($this->returnValue(true));
         }
 
         // Prepare file
-        $file = $this->getMock(
-            '\Upload\File',
-            array('isUploadedFile'),
-            array('foo', $this->storage)
-        );
-        $file->expects($this->any())
-             ->method('isUploadedFile')
-             ->will($this->returnValue(true));
+        $file = $this->getMock('\Upload\File', array('isUploadedFile'), array('foo', $this->storage));
+        $file->expects($this->any())->method('isUploadedFile')->will($this->returnValue(true));
 
         return $file;
     }
 
     /********************************************************************************
-    * Tests
-    *******************************************************************************/
+     * Tests
+     *******************************************************************************/
 
     /**
      * @expectedException \InvalidArgumentException
@@ -106,8 +95,8 @@ class FileTest extends PHPUnit_Framework_TestCase
     {
         $file = $this->getNewFile();
         $file->addValidations(new \Upload\Validation\Mimetype(array(
-            'text/plain'
-        )));
+                                                                  'text/plain'
+                                                              )));
         $this->assertEquals(1, count($file->getValidations()));
     }
 
@@ -115,8 +104,8 @@ class FileTest extends PHPUnit_Framework_TestCase
     {
         $file = $this->getNewFile();
         $file->addValidations(new \Upload\Validation\Mimetype(array(
-            'text/plain'
-        )));
+                                                                  'text/plain'
+                                                              )));
         $this->assertTrue($file->upload());
     }
 
@@ -127,8 +116,8 @@ class FileTest extends PHPUnit_Framework_TestCase
     {
         $file = $this->getNewFile();
         $file->addValidations(new \Upload\Validation\Mimetype(array(
-            'image/png'
-        )));
+                                                                  'image/png'
+                                                              )));
         $file->upload();
     }
 
@@ -136,11 +125,12 @@ class FileTest extends PHPUnit_Framework_TestCase
     {
         $file = $this->getNewFile();
         $file->addValidations(new \Upload\Validation\Mimetype(array(
-            'image/png'
-        )));
+                                                                  'image/png'
+                                                              )));
         try {
             $file->upload();
-        } catch(\Upload\Exception\UploadException $e) {
+        }
+        catch (\Upload\Exception\UploadException $e) {
             $this->assertEquals(1, count($file->getErrors()));
         }
     }
@@ -148,20 +138,14 @@ class FileTest extends PHPUnit_Framework_TestCase
     public function testValidationFailsIfUploadErrorCode()
     {
         $_FILES['foo']['error'] = 4;
-        $file = $this->getNewFile();
+        $file                   = $this->getNewFile();
         $this->assertFalse($file->validate());
     }
 
     public function testValidationFailsIfNotUploadedFile()
     {
-        $file = $this->getMock(
-            '\Upload\File',
-            array('isUploadedFile'),
-            array('foo', new \Upload\Storage\FileSystem($this->assetsDirectory))
-        );
-        $file->expects($this->any())
-             ->method('isUploadedFile')
-             ->will($this->returnValue(false));
+        $file = $this->getMock('\Upload\File', array('isUploadedFile'), array('foo', new \Upload\Storage\FileSystem($this->assetsDirectory)));
+        $file->expects($this->any())->method('isUploadedFile')->will($this->returnValue(false));
         $this->assertFalse($file->validate());
     }
 
