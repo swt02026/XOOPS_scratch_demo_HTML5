@@ -3,3 +3,8 @@ Credits
 
 Originally developed by swt02026 (https://github.com/swt02026/)
 
+Used components:
+
+https://github.com/brandonsavage/Upload">brandonsavage/Upload
+https://github.com/careck/sb2-js">careck/sb2-js
+

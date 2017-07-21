@@ -3,6 +3,8 @@
 
 - moved all images, CSS, and JS files to /assets (mamba)
 - renamed .html Smarty templates to .tpl (mamba)
+- standardized About (mamba)
+- internationalization (mamba)
 
 
 <h5>1.00 Beta 1  [2016-10-03]</h5>
