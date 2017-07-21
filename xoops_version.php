@@ -54,20 +54,20 @@ $modversion['hasMain'] = 1;
 
 $modversion['templates'] = [
     [
-        'file' => 'scratch_demo_upload.html',
-        'description' => 'scratch_demo_upload.html'
+        'file' => 'scratch_demo_upload.tpl',
+        'description' => 'scratch_demo_upload.tpl'
     ],
 	[
-		'file' => 'scratch_demo_about.html',
-		'description' => 'scratch_demo_about.html'
+		'file' => 'scratch_demo_about.tpl',
+		'description' => 'scratch_demo_about.tpl'
 	],
 	[
-		'file' => 'scratch_demo_index.html',
-		'description' => 'scratch_demo_index.html'
+		'file' => 'scratch_demo_index.tpl',
+		'description' => 'scratch_demo_index.tpl'
 	],
     [
-        'file' => 'scratch_demo_modify_list.html',
-        'description' => 'scratch_demo_modify_list.html'
+        'file' => 'scratch_demo_modify_list.tpl',
+        'description' => 'scratch_demo_modify_list.tpl'
     ]
 
 ];
