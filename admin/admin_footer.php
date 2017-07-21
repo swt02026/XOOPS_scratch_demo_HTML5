@@ -17,14 +17,13 @@
  * @author     XOOPS Development Team
  */
 
-require_once __DIR__ . '/admin_header.php';
-// Display Admin header
-xoops_cp_header();
-$adminObject = \Xmf\Module\Admin::getInstance();
+$pathIcon32      = Xmf\Module\Admin::iconUrl('', 32);
 
+echo "<div class='adminfooter'>\n"
+     ."  <div style='text-align: center;'>\n"
+     ."    <a href='http://www.xoops.org' rel='external'><img src='{$pathIcon32}/xoopsmicrobutton.gif' alt='XOOPS' title='XOOPS'></a>\n"
+     ."  </div>\n"
+     .'  ' . _AM_MODULEADMIN_ADMIN_FOOTER . "\n"
+     .'</div>';
 
-$adminObject->displayNavigation(basename(__FILE__));
-$adminObject->displayIndex();
-
-require_once __DIR__ . '/admin_footer.php';
-
+xoops_cp_footer();
