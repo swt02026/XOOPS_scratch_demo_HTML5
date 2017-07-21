@@ -1,3 +1,3 @@
 <?php
 
-define('MD_SCRATCH_GALLERY', "Gallery");
+define('MD_SCRATCH_GALLERY', 'Gallery');

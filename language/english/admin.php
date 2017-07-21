@@ -8,10 +8,10 @@ define('AM_SCRATCH_ERROR_BAD_XOOPS', 'This module requires XOOPS %s+ (%s install
 define('AM_SCRATCH_ERROR_BAD_PHP', 'This module requires PHP version %s+ (%s installed)');
 define('AM_SCRATCH_ERROR_TAG_REMOVAL', 'Could not remove tags from Tag Module');
 
-define('AM_SCRATCH_FILE_MANAGEMENT', "File Management");
-define('AM_SCRATCH_SELECT', "Select");
-define('AM_SCRATCH_FILE_NAME', "File Name");
-define('AM_SCRATCH_REMOVE_SELECTED', "Remove Selected");
+define('AM_SCRATCH_FILE_MANAGEMENT', 'File Management');
+define('AM_SCRATCH_SELECT', 'Select');
+define('AM_SCRATCH_FILE_NAME', 'File Name');
+define('AM_SCRATCH_REMOVE_SELECTED', 'Remove Selected');
 
-define('AM_SCRATCH_UPLOAD_FILE', "Upload File");
-define('AM_SCRATCH_GALLERY', "Gallery");
+define('AM_SCRATCH_UPLOAD_FILE', 'Upload File');
+define('AM_SCRATCH_GALLERY', 'Gallery');

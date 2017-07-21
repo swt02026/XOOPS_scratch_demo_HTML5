@@ -4,7 +4,7 @@ $filenames = array_slice(scandir($sb2dir, SCANDIR_SORT_NONE), 2);
 if (isset($_GET['filename'])
     && in_array($_GET['filename'], $filenames)
     && $str = addslashes(htmlspecialchars($_GET['filename']))) {
-    header("Content-Type:application/zip");
+    header('Content-Type:application/zip');
     header('Content-Disposition: attachment; filename="' . $str . '"');
     ob_clean();
     flush();
