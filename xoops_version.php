@@ -8,7 +8,7 @@ $modversion['description'] = "Scratch檔案展示";
 $modversion['author'] = "swt02026";
 $modversion['credits'] = "";
 $modversion['help'] = 'page=help';
-$modversion['image'] = "images/logo.jpg";
+$modversion['image'] = "assets/images/logo.jpg";
 $modversion['dirname'] = basename(dirname(__FILE__));
 
 // //---模組狀態資訊---//
