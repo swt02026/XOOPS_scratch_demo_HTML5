@@ -28,6 +28,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 namespace Upload\Validation;
 
 /**
@@ -83,7 +84,7 @@ class Extension extends \Upload\Validation\Base
     public function validate(\Upload\File $file)
     {
         $fileExtension = strtolower($file->getExtension());
-        $isValid = true;
+        $isValid       = true;
 
         if (!in_array($fileExtension, $this->allowedExtensions)) {
             $this->setMessage(sprintf($this->message, implode(', ', $this->allowedExtensions)));

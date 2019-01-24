@@ -1,9 +1,11 @@
 <?php
 
-include '../../../include/cp_header.php';
-    xoops_cp_header();
+require_once __DIR__ . '/admin_header.php';
 
-    $xoopsTpl->display('db:scratch_demo_upload.html');
+//include  __DIR__ . '/../../../include/cp_header.php';
+xoops_cp_header();
+$adminObject->displayNavigation(basename(__FILE__));
 
-    xoops_cp_footer();
-?>
+$xoopsTpl->display('db:scratch_demo_upload.tpl');
+
+require_once __DIR__ . '/admin_footer.php';

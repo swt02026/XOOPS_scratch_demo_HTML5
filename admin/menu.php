@@ -1,32 +1,47 @@
 <?php
-    $adminmenu = array();
-    $icon_dir=substr(XOOPS_VERSION,6,3)=='2.6'?"":"images/";
+$adminmenu = array();
+$icon_dir  = substr(XOOPS_VERSION, 6, 3) == '2.6' ? "" : "images/";
 
-    $adminmenu=[
-        [
-            'title' => "上傳作品",
-            'link' =>  'admin/upload.php',
-            'desc' => "上傳作品",
-            'icon' => 'images/admin/upload.jpg'
-        ],
-        [
-            'title' => "作品展示",
-            'link' =>  'index.php',
-            'desc' => "作品展示",
-            'icon' => 'images/admin/demo.jpg'
-        ],
-        [
-            'title' => '作品管理',
-            'link' => 'admin/modify_list.php',
-            'desc' => '作品管理',
-            'icon' => 'images/admin/manage.jpg'
+$moduleDirName = basename(dirname(__DIR__));
 
-        ],
-        [
-            'title' => "關於",
-            'link' =>  'admin/about.php',
-            'desc' => "關於",
-            'icon' => 'images/admin/about.jpg'
-        ]
-    ];
-?>
+if (false !== ($moduleHelper = Xmf\Module\Helper::getHelper($moduleDirName))) {
+} else {
+    $moduleHelper = Xmf\Module\Helper::getHelper('system');
+}
+$adminObject = \Xmf\Module\Admin::getInstance();
+
+$pathIcon32    = \Xmf\Module\Admin::menuIconPath('');
+
+$adminmenu = [
+    [
+        'title' => MI_SCRATCH_ADMENU0,
+        'link'  => 'admin/index.php',
+        'desc'  => "Home",
+        'icon'  => $pathIcon32 . '/home.png'
+    ],
+    [
+        'title' => MI_SCRATCH_ADMENU2,
+        'link'  => 'admin/upload.php',
+        'desc'  => MI_SCRATCH_ADMENU2_DESC,
+        'icon'  => $pathIcon32 . '/upload.png'
+    ],
+    [
+        'title' => MI_SCRATCH_ADMENU1,
+        'link'  => 'index.php',
+        'desc'  => MI_SCRATCH_ADMENU1_DESC,
+        'icon'  => $pathIcon32 . '/face-smile.png'
+    ],
+    [
+        'title' => MI_SCRATCH_ADMENU3,
+        'link'  => 'admin/modify_list.php',
+        'desc'  => MI_SCRATCH_ADMENU3_DESC,
+        'icon'  => $pathIcon32 . '/manage.png'
+
+    ],
+    [
+        'title' => MI_SCRATCH_ADMENU5,
+        'link'  => 'admin/about.php',
+        'desc'  => MI_SCRATCH_ADMENU5_DESC,
+        'icon'  => $pathIcon32 . '/about.png'
+    ]
+];

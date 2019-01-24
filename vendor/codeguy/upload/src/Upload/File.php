@@ -28,6 +28,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 namespace Upload;
 
 /**
@@ -45,8 +46,8 @@ namespace Upload;
 class File extends \SplFileInfo
 {
     /********************************************************************************
-    * Static Properties
-    *******************************************************************************/
+     * Static Properties
+     *******************************************************************************/
 
     /**
      * Upload error code messages
@@ -74,8 +75,8 @@ class File extends \SplFileInfo
     );
 
     /********************************************************************************
-    * Instance Properties
-    *******************************************************************************/
+     * Instance Properties
+     *******************************************************************************/
 
     /**
      * Storage delegate
@@ -128,8 +129,8 @@ class File extends \SplFileInfo
 
     /**
      * Constructor
-     * @param  string                            $key            The file's key in $_FILES superglobal
-     * @param  \Upload\Storage\Base              $storage        The method with which to store file
+     * @param  string               $key     The file's key in $_FILES superglobal
+     * @param  \Upload\Storage\Base $storage The method with which to store file
      * @throws \Upload\Exception\UploadException If file uploads are disabled in the php.ini file
      * @throws \InvalidArgumentException         If $_FILES key does not exist
      */
@@ -138,11 +139,11 @@ class File extends \SplFileInfo
         if (!isset($_FILES[$key])) {
             throw new \InvalidArgumentException("Cannot find uploaded file identified by key: $key");
         }
-        $this->storage = $storage;
-        $this->validations = array();
-        $this->errors = array();
+        $this->storage      = $storage;
+        $this->validations  = array();
+        $this->errors       = array();
         $this->originalName = $_FILES[$key]['name'];
-        $this->errorCode = $_FILES[$key]['error'];
+        $this->errorCode    = $_FILES[$key]['error'];
         parent::__construct($_FILES[$key]['tmp_name']);
     }
 
@@ -161,7 +162,7 @@ class File extends \SplFileInfo
 
     /**
      * Set name (without extension)
-     * @param  string           $name
+     * @param  string $name
      * @return \Upload\File     Self
      */
     public function setName($name)
@@ -200,9 +201,9 @@ class File extends \SplFileInfo
     public function getMimetype()
     {
         if (!isset($this->mimeType)) {
-            $finfo = new \finfo(FILEINFO_MIME);
-            $mimetype = $finfo->file($this->getPathname());
-            $mimetypeParts = preg_split('/\s*[;,]\s*/', $mimetype);
+            $finfo          = new \finfo(FILEINFO_MIME);
+            $mimetype       = $finfo->file($this->getPathname());
+            $mimetypeParts  = preg_split('/\s*[;,]\s*/', $mimetype);
             $this->mimetype = strtolower($mimetypeParts[0]);
             unset($finfo);
         }
@@ -211,8 +212,8 @@ class File extends \SplFileInfo
     }
 
     /********************************************************************************
-    * Validate
-    *******************************************************************************/
+     * Validate
+     *******************************************************************************/
 
     /**
      * Add file validations
@@ -287,8 +288,8 @@ class File extends \SplFileInfo
     }
 
     /********************************************************************************
-    * Upload
-    *******************************************************************************/
+     * Upload
+     *******************************************************************************/
 
     /**
      * Upload file (delegated to storage object)
@@ -305,8 +306,8 @@ class File extends \SplFileInfo
     }
 
     /********************************************************************************
-    * Helpers
-    *******************************************************************************/
+     * Helpers
+     *******************************************************************************/
 
     /**
      * Is this file uploaded with a POST request?
@@ -343,7 +344,7 @@ class File extends \SplFileInfo
     public static function humanReadableToBytes($input)
     {
         $number = (int)$input;
-        $unit = strtolower(substr($input, -1));
+        $unit   = strtolower(substr($input, -1));
         if (isset(self::$units[$unit])) {
             $number = $number * self::$units[$unit];
         }
